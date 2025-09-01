@@ -1,5 +1,6 @@
 public class Siswa {
     public int nrp;
+    public String nama;
 
     public Siswa(int i){
         nrp = i;

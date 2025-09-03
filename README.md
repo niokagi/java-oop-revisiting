@@ -1,4 +1,4 @@
-# Java OOP Concepts & Practice
+# Revisiting Java OOP Concepts & Practice
 
 A repository for personal notes and code implementations focused on revisiting and applying Object-Oriented Programming (OOP) principles in Java.
 

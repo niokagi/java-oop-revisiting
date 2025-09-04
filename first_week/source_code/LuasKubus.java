@@ -1,3 +1,5 @@
+package source_code;
+
 public class LuasKubus {
 	public static void main(String[] args){
 		int sisi = 5;

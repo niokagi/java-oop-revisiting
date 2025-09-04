@@ -1,4 +1,5 @@
-package trains;
+package module_3.trains;
+
 
 import java.util.Scanner;
 

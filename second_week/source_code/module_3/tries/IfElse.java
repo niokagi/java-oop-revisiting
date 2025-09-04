@@ -1,3 +1,5 @@
+package module_3.tries;
+
 public class IfElse {
     public static void main(String[] args) {
         char firstInitial = 'a';

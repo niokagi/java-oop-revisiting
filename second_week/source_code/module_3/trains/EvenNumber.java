@@ -1,4 +1,4 @@
-package trains;
+package module_3.trains;
 
 public class EvenNumber {
     public static void main(String[] args) {

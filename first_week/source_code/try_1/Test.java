@@ -1,4 +1,4 @@
-package try_1;
+package source_code.try_1;
 
 public class Test {
     public static void main(String[] args) {

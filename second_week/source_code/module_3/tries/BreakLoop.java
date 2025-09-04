@@ -1,3 +1,5 @@
+package module_3.tries;
+
 class BreakLoop {
     public static void main(String args[]) {
         int i = 0;

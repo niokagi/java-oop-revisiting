@@ -1,3 +1,5 @@
+package source_code;
+
 public class Mahasiswa {
 	// atribut
 	String nama;

@@ -1,0 +1,18 @@
+package module_5.practices;
+
+public class EqTest5 {
+    public static void main(String argv[]) {
+        EqTest e = new EqTest();
+    }
+
+    // notea: sengaja error utk bahan analisis 
+    EqTest(){ 
+        String s = "Java";    
+        String s2 = "java"; 
+        if (s.equalsIgnoreCase(s2)) { 
+            System.out.println("Equal"); 
+        } else { 
+            System.out.println("Not equal"); 
+        } 
+    }
+}

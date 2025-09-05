@@ -3,14 +3,10 @@ package module_5.tasks;
 public class Task_3 {
     public static void main(String[] args) {
         String masukan = "Amanda Ace";
-
         System.out.println("String masukan : " + masukan);
 
         String hasil = tukarUjungKarakter(masukan);
-
         System.out.println("String hasil   : " + hasil);
-
-        System.out.println("\n--- Contoh Lain ---");
 
         String masukan2 = "Pemrograman";
         System.out.println("String masukan : " + masukan2);
@@ -28,7 +24,6 @@ public class Task_3 {
 
         char hurufPertama = str.charAt(0);
         char hurufTerakhir = str.charAt(str.length() - 1);
-
         String bagianTengah = str.substring(1, str.length() - 1);
 
         return hurufTerakhir + bagianTengah + hurufPertama;

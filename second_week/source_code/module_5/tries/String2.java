@@ -1,6 +1,6 @@
 package module_5.tries;
 
-public class StringCompare {
+public class String2 {
     public static void main(String[] args) {
         String str1 = "PENS";
         String str2 = "pens";

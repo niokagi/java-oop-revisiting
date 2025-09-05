@@ -5,7 +5,7 @@ public class EqTest4 {
         EqTest e = new EqTest();
     }
 
-    // notea: sengaja error utk bahan analisis 
+    // note: sengaja error utk bahan analisis 
     EqTest(){ 
         String s1 = new String("Java");    
         String s2 = new String("Java"); 

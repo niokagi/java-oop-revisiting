@@ -13,14 +13,7 @@ public class Task_5 {
         System.out.println("-----------------------------------------------------");
 
         String kalimatHasil = kalimatUtama.replace(kataYangDiganti, kataPengganti);
-
         System.out.println("Output:");
         System.out.println("Kalimat utama menjadi: " + kalimatHasil);
-
-        System.out.println("\n--- Contoh Lain ---");
-        String contohLain = "Saya benci programming! Saya sangat benci!";
-        String hasilLain = contohLain.replace("benci", "suka");
-        System.out.println("Kalimat asli: " + contohLain);
-        System.out.println("Hasil ganti : " + hasilLain);
     }
 }

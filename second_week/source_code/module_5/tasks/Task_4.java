@@ -5,7 +5,7 @@ public class Task_4 {
         String namaPertama = "Katy Perry";
         String namaKedua = "Taylor Swift";
 
-        System.out.println("--- Sebelum Ditukar ---");
+        System.out.println("Sebelum Ditukar: ");
         System.out.println("String nama pertama : " + namaPertama);
         System.out.println("String nama kedua   : " + namaKedua);
 
@@ -20,15 +20,9 @@ public class Task_4 {
         String hasilNamaPertama = firstName1 + " " + familyName2;
         String hasilNamaKedua = firstName2 + " " + familyName1;
 
-        System.out.println("\n--- Setelah Ditukar ---");
+        System.out.println("\nSetelah Ditukar:");
         System.out.println("String nama pertama : " + hasilNamaPertama);
         System.out.println("String nama kedua   : " + hasilNamaKedua);
-
-        System.out.println("\n--- Contoh dengan nama tengah ---");
-        String namaKompleks1 = "Cristiano Ronaldo dos Santos";
-        String namaKompleks2 = "Lionel Andrés Messi";
-
-        tukarDanTampilkan(namaKompleks1, namaKompleks2);
     }
 
     public static void tukarDanTampilkan(String nama1, String nama2) {

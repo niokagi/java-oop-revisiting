@@ -1,6 +1,5 @@
 package module_3.trains;
 
-
 import java.util.Scanner;
 
 public class Faktorial {

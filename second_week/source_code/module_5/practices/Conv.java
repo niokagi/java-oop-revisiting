@@ -9,8 +9,10 @@ public class Conv {
 
     public void amethod(String s) {
         char c = 'H';
-        // notea: sengaja error utk bahan analisis 
+        // error untuk analisis
         c += s;
         System.out.println(c);
     }
 }
+
+

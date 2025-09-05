@@ -3,7 +3,8 @@ package module_3.tries;
 public class SwitchCase {
     public static void main(String[] args) {
         char firstInitial = 'a';
-        System.out.println("Masukkan huruf awal nama anda: ");
+        System.out.print("Masukkan huruf awal nama anda: ");
+
         try {
             firstInitial = (char) System.in.read();
         } catch (Exception e) {

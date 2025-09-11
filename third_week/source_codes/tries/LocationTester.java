@@ -1,5 +1,4 @@
-public class LocationTester {
-
+public class LocationTester {   
     public static void main(String[] args) {
         Location surabaya = new Location(112.7521, -7.2575);
         Location jakarta = new Location(106.8456, -6.2088);

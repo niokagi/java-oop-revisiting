@@ -2,5 +2,7 @@
 */captures/
 /Lapres
 /captures
+/out/*
 *.docx
 *.pdf
+.idea

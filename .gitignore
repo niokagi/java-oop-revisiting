@@ -5,5 +5,5 @@
 /out/*
 *.docx
 *.pdf
-/.idea/
+# /.idea/
 /out

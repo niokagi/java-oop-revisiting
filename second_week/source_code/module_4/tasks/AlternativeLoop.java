@@ -55,5 +55,6 @@ public class AlternativeLoop {
         whileMethod(x);
         System.out.println();
         streamMethod(x);
+        System.out.println();
     }
 }

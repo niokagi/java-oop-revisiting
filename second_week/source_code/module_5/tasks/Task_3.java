@@ -19,7 +19,7 @@ public class Task_3 {
 
     public static String tukarUjungKarakter(String str) {
         if (str == null || str.length() < 2) {
-            return str; // Kembalikan string asli tanpa perubahan
+            return str;
         }
 
         char hurufPertama = str.charAt(0);

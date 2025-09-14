@@ -1,4 +1,4 @@
-package third_week.source_codes.tasks;
+package third_week.source_codes.module_6.tasks;
 
 public class RegistStudi {
     private Mahasiswa mahasiswa;

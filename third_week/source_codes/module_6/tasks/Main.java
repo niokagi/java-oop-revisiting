@@ -1,10 +1,10 @@
-package third_week.source_codes.tasks;
+package third_week.source_codes.module_6.tasks;
 // import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Mahasiswa nio = new Mahasiswa("Niokagi", "1012022001");
-        MataKuliah kalkulus = new MataKuliah("KALK01", "Kalkulus Lanjut", 3, "Dr. blablabla, M.Sc.");
+        MataKuliah kalkulus = new MataKuliah("KALK01", "Kalkulus", 3, "Dr. A.");
 
         System.out.println(nio.printDataDiri());
         nio.setIpk(3.5);

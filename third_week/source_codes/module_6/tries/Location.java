@@ -1,3 +1,5 @@
+package third_week.source_codes.module_6.tries;
+
 public class Location {
     public double longitude;
     public double latitude;

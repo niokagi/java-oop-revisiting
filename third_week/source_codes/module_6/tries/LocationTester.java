@@ -1,3 +1,5 @@
+package third_week.source_codes.module_6.tries;
+
 public class LocationTester {   
     public static void main(String[] args) {
         Location surabaya = new Location(112.7521, -7.2575);

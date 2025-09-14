@@ -1,3 +1,5 @@
+package third_week.source_codes.module_6.tries;
+
 public class Alarm {
     public String id;
     public String description;

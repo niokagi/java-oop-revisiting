@@ -1,4 +1,4 @@
-package third_week.source_codes.practices;
+package third_week.source_codes.module_6.practices;
 
 public class Shape {
     public double length;

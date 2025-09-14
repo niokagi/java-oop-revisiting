@@ -3,7 +3,7 @@ package third_week.source_codes.tasks;
 
 public class Main {
     public static void main(String[] args) {
-        Mahasiswa nio = new Mahasiswa("Omke gams", "1012022001");
+        Mahasiswa nio = new Mahasiswa("Niokagi", "1012022001");
         MataKuliah kalkulus = new MataKuliah("KALK01", "Kalkulus Lanjut", 3, "Dr. blablabla, M.Sc.");
 
         System.out.println(nio.printDataDiri());

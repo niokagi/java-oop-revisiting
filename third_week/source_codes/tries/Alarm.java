@@ -15,7 +15,7 @@ public class Alarm {
         System.out.println("ALARM ON!");
         System.out.println("ID: " + this.id + " (" + this.description + ")");
         System.out.println("Waktu: " + this.time + ", Date: " + this.date);
-        System.out.println("BEEP... BEEP... BEEP...!");
+        System.out.println("BEEP... BEEP..!");
     }
 
     public void terminate() {
@@ -26,3 +26,4 @@ public class Alarm {
         System.out.println("> Alarm '" + this.description + "' ditunda selama 5 menit.");
     }
 }
+

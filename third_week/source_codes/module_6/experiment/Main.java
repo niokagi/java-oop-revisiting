@@ -1,4 +1,4 @@
-package third_week.source_codes.module_7.tries;
+package third_week.source_codes.module_6.experiment;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

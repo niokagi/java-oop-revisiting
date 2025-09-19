@@ -1,6 +1,6 @@
 public class MahasiswaTester {
     public static void main(String[] args) {
-        Mahasiswa mhs1 = new Mahasiswa(109, "");
+        // Mahasiswa mhs1 = new Mahasiswa(109, "");
         Mahasiswa mhs2 = new Mahasiswa(109, "Adhim Niokagi");
 
         // System.out.println(mhs1.nama);

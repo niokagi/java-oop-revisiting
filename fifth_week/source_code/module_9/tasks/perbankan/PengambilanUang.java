@@ -1,4 +1,4 @@
-package fifth_week.source_code.tasks.perbankan;
+package fifth_week.source_code.module_9.tasks.perbankan;
 
 public class PengambilanUang extends Tabungan {
     private int proteksi;

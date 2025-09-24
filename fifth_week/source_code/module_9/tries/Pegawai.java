@@ -1,4 +1,4 @@
 public class Pegawai {
     private String nama;
-    private double gaji;
+    public double gaji;
 }

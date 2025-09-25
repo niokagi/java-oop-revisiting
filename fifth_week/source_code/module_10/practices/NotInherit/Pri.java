@@ -1,3 +1,4 @@
+package fifth_week.source_code.module_10.practices.NotInherit;
 
 public class Pri extends Base {
     static int i = 200;
@@ -7,5 +8,3 @@ public class Pri extends Base {
         System.out.println(i);
     }
 }
-
-

@@ -1,6 +1,6 @@
-package fifth_week.source_code.module_9.tasks.perbankan;
+package perbankan;
 
-public class TesTugas {
+public class TesTugas {	
     public static void main(String[] args) {
         PengambilanUang tabungan = new PengambilanUang(5000, 1000);
         System.out.println("Uang yang ditabung : 5000");
@@ -15,3 +15,7 @@ public class TesTugas {
         System.out.println("Saldo sekarang : " + tabungan.getSaldo());
     }
 }
+
+
+
+

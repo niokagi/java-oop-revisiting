@@ -7,3 +7,12 @@ public class Manajer extends Pegawai {
         departemen = d;
     }
 }
+
+
+
+
+
+
+
+
+

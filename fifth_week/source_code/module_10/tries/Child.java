@@ -1,17 +1,11 @@
 package fifth_week.source_code.module_10.tries;
 
-public class Child extends Parent {
-    int x;
-    public Child() {
-        x = 5;
-        super();
+class Child extends Parent {
+    public int x = 10;
+
+    public void Info(int x) {
+        System.out.println("Nilai x sebagai parameter = " + x);
+        System.out.println("Data member x di class Child = " + this.x);
+        System.out.println("Data member x di class Parent = " + super.x);
     }
 }
-
-// public class Child extends Parent {
-//     int x;
-//     public Child() {
-//         super();
-//         x = 5;
-//     }
-// }

@@ -43,7 +43,7 @@ public class Dosen extends User {
 
     @Override
     public void displayInfo() {
-        System.out.println("--- Info Dosen ---");
+        System.out.println("Info Dosen: ");
         super.displayInfo();
         System.out.println("Pangkat/Golongan: " + this.pangkat + "/" + this.golongan);
     }

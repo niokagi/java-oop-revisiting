@@ -36,18 +36,15 @@ public class Dosen extends User {
         this.key = key;
     }
 
-    // Method login spesifik untuk Dosen (bukan override/overload dari User)
     public boolean login(String username, String password, String key) {
-        // Memanfaatkan method login dari superclass dan menambahkan validasi key
         boolean isUserValid = super.login(username, password);
         return isUserValid && this.key.equals(key);
     }
 
-    // 4. Overriding Method
     @Override
     public void displayInfo() {
         System.out.println("--- Info Dosen ---");
-        super.displayInfo(); // Memanggil method dari superclass
+        super.displayInfo();
         System.out.println("Pangkat/Golongan: " + this.pangkat + "/" + this.golongan);
     }
 }

@@ -49,11 +49,11 @@ public class User {
         return this.username.equals(username) && this.password.equals(password);
     }
 
-    public boolean login(String phoneOrUsername, String password, boolean isPhone) {
+    public boolean login(String phoneOrUname, String password, boolean isPhone) {
         if (isPhone) {
-            return this.phone.equals(phoneOrUsername) && this.password.equals(password);
+            return this.phone.equals(phoneOrUname) && this.password.equals(password);
         } else {
-            return this.username.equals(phoneOrUsername) && this.password.equals(password);
+            return this.username.equals(phoneOrUname) && this.password.equals(password);
         }
     }
 

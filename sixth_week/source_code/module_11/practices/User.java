@@ -1,23 +1,18 @@
 public class User {
-    // 1. Enkapsulasi: Atribut dibuat private
     private String id;
     private String phone;
     private String username;
     private String password;
 
-    // 2. Overloading Constructor
-    // Constructor default (tanpa parameter)
     public User() {
     }
 
-    // Constructor dengan parameter
     public User(String username, String password, String phone) {
         this.username = username;
         this.password = password;
         this.phone = phone;
     }
 
-    // --- Getters and Setters untuk Enkapsulasi ---
     public String getId() {
         return id;
     }
@@ -50,13 +45,10 @@ public class User {
         this.password = password;
     }
 
-    // 3. Overloading Method
-    // Login menggunakan username dan password
     public boolean login(String username, String password) {
         return this.username.equals(username) && this.password.equals(password);
     }
 
-    // Login menggunakan phone dan password (nama sama, parameter beda)
     public boolean login(String phoneOrUsername, String password, boolean isPhone) {
         if (isPhone) {
             return this.phone.equals(phoneOrUsername) && this.password.equals(password);
@@ -65,7 +57,6 @@ public class User {
         }
     }
 
-    // Method dasar untuk di-override oleh subclass
     public void displayInfo() {
         System.out.println("Username: " + this.username);
         System.out.println("Phone: " + this.phone);

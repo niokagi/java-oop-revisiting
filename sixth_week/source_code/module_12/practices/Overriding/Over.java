@@ -1,5 +1,3 @@
-package sixth_week.source_code.module_12.practices.Overriding;
-
 class Over extends Base {
     public static void main(String[] args) {
         Over o = new Over();

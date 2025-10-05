@@ -1,4 +1,3 @@
-package sixth_week.source_code.module_12.tasks.task_one;
 
 public class RerataNilai {
     public int average(int a, int b) {

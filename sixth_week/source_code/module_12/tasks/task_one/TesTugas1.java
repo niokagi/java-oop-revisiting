@@ -1,4 +1,3 @@
-package sixth_week.source_code.module_12.tasks.task_one;
 
 public class TesTugas1 {
     public static void main(String args[]) {

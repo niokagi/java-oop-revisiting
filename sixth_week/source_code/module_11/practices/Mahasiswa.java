@@ -1,14 +1,12 @@
 public class Mahasiswa extends User {
     private String kelas;
-    private Dosen dosenWali; // Atribut dengan tipe objek lain
+    private Dosen dosenWali;
 
-    // Overloading Constructor
     public Mahasiswa() {
-        // Secara implisit memanggil super()
+	// automatically call super() 
     }
 
     public Mahasiswa(String username, String password, String phone) {
-        // Memanggil constructor superclass secara eksplisit
         super(username, password, phone);
     }
 
@@ -31,9 +29,9 @@ public class Mahasiswa extends User {
     // 4. Overriding Method
     @Override
     public void displayInfo() {
-        System.out.println("--- Info Mahasiswa ---");
-        super.displayInfo(); // Memanggil method dari superclass
-        System.out.println("Kelas: " + this.kelas);
+        System.out.println("Info Mahasiswa:");
+        super.displayInfo();        
+	System.out.println("Kelas: " + this.kelas);
         if (this.dosenWali != null) {
             System.out.println("Dosen Wali: " + this.dosenWali.getUsername());
         }

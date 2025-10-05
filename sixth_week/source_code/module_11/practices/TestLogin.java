@@ -10,7 +10,6 @@ public class TestLogin {
         System.out.println(
                 resultMahasiswa ? "Login Mahasiswa berhasil" : "Login Mahasiswa gagal");
         fadilah.displayInfo();
-
         System.out.println("\n===========================\n");
 
         Dosen fahrul = new Dosen();

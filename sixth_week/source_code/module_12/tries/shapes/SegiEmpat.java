@@ -35,7 +35,7 @@ public class SegiEmpat {
     }
 
     public static void main(String[] arguments) {
-        Segiempat rect = new Segiempat();
+        SegiEmpat rect = new SegiEmpat();
         System.out.println("Buat segiempat dengan koordinat (25,25) dan (50,50)");
         rect.buatSegiempat(25, 25, 50, 50);
         rect.cetakSegiempat();

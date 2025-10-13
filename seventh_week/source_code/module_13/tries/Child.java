@@ -4,5 +4,4 @@ public class Child extends Parent {
     public void Info(){
         System.out.println("ini class child");
     }
-    
 }

@@ -1,12 +1,14 @@
 package packageX.packageY;
+// error expected ~ for analytical needs
+// import packageX.SuperclassX;
 
-public class SubClassY {
-    SuperClassX objX = new SuperClassX();
-    SubClassY objY = new SubClassY();
+public class SubclassY extends SuperclassX {
+    SuperclassX objX = new SubclassY();
+    SubclassY objY = new SubclassY();
 
     void subclassMethodY() {
-        objY.subclassMethodY();
+        objY.superclassMethodX();
         int i;
-        i = objY.superClassVarX;
+        i = objY.superclassVarX;
     }
 }

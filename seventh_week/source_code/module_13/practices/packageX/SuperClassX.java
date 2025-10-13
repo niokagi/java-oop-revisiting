@@ -1,9 +1,10 @@
 package packageX;
 
-public class SuperClassX {
-    protected int superClassVarX;
+public class SuperclassX {
+    int superclassVarX;
+    // error expected ~ for analytical needs
+    // protected int superclassVarX;
 
-    protected void superClassMethodX(){
-        
+    protected void superclassMethodX() {
     }
 }

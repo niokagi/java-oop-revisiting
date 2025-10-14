@@ -5,10 +5,11 @@ public class Test {
         Fans fans2 = new Fans("Mona");
         Fans fans3 = new KpopFans("Tomi");
         KpopFans fans4 = new KpopFans("Febi");
-        fans1.watchingPerformance();
-        fans2.watchingPerformance(new Musician());
-        fans2.watchingPerformance(new Singer());
-        fans3.watchingPerformance(new Biduan());
-        fans4.watchingPerformance(new Kpop(), "teriak histeris");
+        
+        fans1.watchingPerformances();
+        fans2.watchingPerformances(new Musician());
+        fans2.watchingPerformances(new Singer());
+        fans3.watchingPerformances(new Biduan());
+        fans4.watchingPerformances(new Kpop(), "teriak histeris");
     }
 }

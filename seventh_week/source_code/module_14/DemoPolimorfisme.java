@@ -7,6 +7,7 @@ class Hewan {
 }
 
 class Kucing extends Hewan {
+    // method modif
     @Override
     public void bersuara() {
         System.out.println("Meow!");
@@ -14,6 +15,7 @@ class Kucing extends Hewan {
 }
 
 class Anjing extends Hewan {
+    // method modif
     @Override
     public void bersuara() {
         System.out.println("Guk! Guk!");
